@@ -1,6 +1,7 @@
 import axios from 'axios';
+const baseurl="https://file-sharing-t3kq.onrender.com";
 
-const API_URI = 'http://localhost:8000';
+const API_URI = `${baseurl}`;
 
 export const uploadFile = async (data) => {
     try {
